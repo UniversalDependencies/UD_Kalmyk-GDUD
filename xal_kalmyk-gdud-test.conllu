@@ -1,0 +1,852 @@
+# sent_id = Kalmyk_grammar_1
+# text = tiimə jumə bičä kelə
+# text[eng] = Don’t say such a thing.
+1	tiimə	tiimə	DET	_	PronType=Dem	2	det	_	_
+2	jumə	jumə	NOUN	_	_	4	obj	_	_
+3	bičä	bičä	VERB	_	Mood=Imp	4	advmod	_	_
+4	kelə	kelə	VERB	_	Mood=Imp|Polarity=Neg	0	root	_	_
+
+# sent_id = Kalmyk_grammar_2
+# text = Očir-in zaka es medə-lkə-n terü-gə muur-ub-v
+# text[eng] = Ochir’s ignorance of the rules caused trouble.
+1	Očir-in	Očir	PROPN	_	Case=Gen	2	nmod	_	_
+2	zaka	zaka	NOUN	_	_	5	nsubj	_	_
+3	es	es	PART	_	Polarity=Neg	5	advmod	_	_
+4	medə-lkə-n	medə	VERB	_	Deriv=NMLZ|Tense=Ext	2	acl	_	_
+5	terü-gə	terü	VERB	_	Tense=Past|Voice=Cau	0	root	_	_
+6	muur-ub-v	muur	VERB	_	Aspect=Perf|Tense=Past|Voice=Cau	5	xcomp	_	_
+
+# sent_id = Kalmyk_grammar_3
+# text = ärkə es uu-xla-n bi bär-žə av-čk-ad
+# text[eng] = As far as (she) doesn’t drink vodka, I hold her.
+1	ärkə	ärkə	NOUN	_	_	4	obj	_	_
+2	es	es	PART	_	Polarity=Neg	3	advmod	_	_
+3	uu-xla-n	uu	VERB	_	Deriv=CvSucc|Number=Sing|Person=3	1	acl	_	_
+4	bi	bi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	bär-žə	bär	VERB	_	Deriv=CvIpfv	6	advcl	_	_
+6	av-čk-ad	av	VERB	_	Aspect=Perf|Deriv=COMPL	0	root	_	_
+
+# sent_id = Kalmyk_grammar_4
+# text = tiig-žə naad-də-m bišə küü-n-ä amə-n-də odekolon ke-d-ü
+# text[eng] = This is unfair play! Is it possible to pour perfume in somebody’s mouth?
+1	tiig-žə	tiig	VERB	_	Deriv=CvIpfv	0	root	_	_
+2	naad-də-m	naad	VERB	_	Aspect=Hab	1	xcomp	_	CopType=Aff
+3	bišə	bišə	PART	_	Polarity=Neg	2	advmod	_	_
+4	küü-n-ä	küü	PRON	_	Case=Ext|Number=Sing|PronType=Prs	5	obl	_	_
+5	amə-n-də	amə	NOUN	_	Case=Dat|Number=Sing	2	obj	_	_
+6	odekolon	odekolon	NOUN	_	_	7	obj	_	_
+7	ke-d-ü	ke	VERB	_	Deriv=PcHab|Tense=Q	1	ccomp	_	_
+
+# sent_id = Kalmyk_grammar_5
+# text = ter küükə-n-də taas-gd-sən uga
+# text[eng] = The girl disliked him. (Lit. ‘He was not favored by the girl.’)
+1	ter	ter	DET	_	PronType=Dem	2	det	_	_
+2	küükə-n-də	küükə	NOUN	_	Case=Ext|Number=Sing	4	obl	_	_
+3	taas-gd-sən	taas	VERB	_	Polarity=Neg|Tense=Past|Voice=Pass	4	acl	_	_
+4	uga	uga	VERB	_	Polarity=Neg|Tense=Past	0	root	_	_
+
+# sent_id = Kalmyk_grammar_6
+# text = du ä ɢar-sən uga-v
+# text[eng] = I said nothing. (Lit. ‘Voice didn’t sound’)
+1	du	du	NOUN	_	_	3	nsubj	_	_
+2	ä	ä	PART	_	Polarity=Neg	3	advmod	_	_
+3	ɢar-sən	ɢar	VERB	_	Polarity=Neg|Tense=Past	4	acl	_	_
+4	uga-v	uga	VERB	_	Number=Sing|Person=1|Polarity=Neg|Tense=Past	0	root	_	_
+
+# sent_id = Kalmyk_grammar_7
+# text = nandə maashə-n bää-nä
+# text[eng] = I have a car
+1	nandə	nandə	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	maashə-n	maashə	NOUN	_	Case=Ext|Number=Sing	3	obj	_	_
+3	bää-nä	bää	VERB	_	Tense=Pres	0	root	_	_
+
+# sent_id = Kalmyk_grammar_8
+# text = nandə mash-in uga
+# text[eng] = I have no car
+1	nandə	nandə	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	mash-in	mash	NOUN	_	Case=Ext|Number=Sing	3	obj	_	_
+3	uga	uga	VERB	_	Polarity=Neg	0	root	_	_
+
+# sent_id = Kalmyk_grammar_9
+# text = Badma, čə tasə songs-čə-x-šə-č!
+# text[eng] = Badma, you are not listening to me at all!
+1	Badma	Badma	PROPN	_	_	4	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	čə	čə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+4	tasə	tasə	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+5	songs-čə-x-šə-č	songs	VERB	_	Aspect=Prog|Number=Sing|Person=2|Polarity=Neg|Tense=Fut	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Kalmyk_grammar_10
+# text = Kekshenova Sveta ter vnučk-an ög-xär bää-d-go-č
+# text[eng] = Sveta Kekshenova doesn’t send her granddaughter (to school; surprisingly).
+1	Kekshenova	Kekshenova	PROPN	_	_	2	flat	_	_
+2	Sveta	Sveta	PROPN	_	_	5	nsubj	_	_
+3	ter	ter	DET	_	PronType=Dem	5	det	_	_
+4	vnučk-an	vnučk	NOUN	_	Case=Acc|Reflex=Yes	5	obj	_	_
+5	ög-xär	ög	VERB	_	Deriv=CvPurp	0	root	_	_
+6	bää-d-go-č	bää	VERB	_	Aspect=Hab|Mood=MIR|Polarity=Neg	5	xcomp	_	_
+
+# sent_id = Kalmyk_grammar_11
+# text = xar sana uga-qar
+# text[eng] = without the least hidden motive
+1	xar	xar	ADJ	_	_	2	amod	_	_
+2	sana	sana	NOUN	_	_	3	nsubj	_	_
+3	uga-qar	uga	VERB	_	Case=Ins|Polarity=Neg	0	root	_	_
+
+# sent_id = Kalmyk_grammar_12
+# text = uga-qasə ää-žä-nä-v
+# text[eng] = I’m afraid that it’s not the case.
+1	uga-qasə	uga	VERB	_	Case=Abl|Polarity=Neg	0	root	_	_
+2	ää-žä-nä-v	ää	VERB	_	Aspect=Prog|Number=Sing|Person=1|Tense=Pres	1	xcomp	_	_
+
+# sent_id = Kalmyk_grammar_13
+# text = tegäd xovdəg emgə-n törüc öndəg ülđ-nä
+# text[eng] = So the greedy old woman is left without eggs.
+1	tegäd	tegäd	ADV	_	_	5	advmod	_	_
+2	xovdəg	xovdəg	ADJ	_	_	3	amod	_	_
+3	emgə-n	emgə	NOUN	_	Case=Ext|Number=Sing	5	nsubj	_	_
+4	törüc	törüc	NOUN	_	_	5	obj	_	_
+5	öndəg	öndəg	VERB	_	Polarity=Neg	0	root	_	_
+6	ülđ-nä	ülđ	VERB	_	Tense=Pres	5	xcomp	_	_
+
+# sent_id = Kalmyk_grammar_14
+# text = ger-t-än tus uga jovačə
+# text[eng] = useless man for home
+1	ger-t-än	ger	NOUN	_	Case=Dat|Number=Plur|Reflex=Yes	4	obl	_	_
+2	tus	tus	NOUN	_	_	4	nsubj	_	_
+3	uga	uga	VERB	_	Polarity=Neg	4	cop	_	_
+4	jovačə	jovačə	NOUN	_	_	0	root	_	_
+
+# sent_id = Kalmyk_grammar_15
+# text = med-xə küündə oda xol bišə bää-nä
+# text[eng] = (…) there is a competent man not far from here.
+1	med-xə	med	VERB	_	Deriv=PcFut	6	acl	_	_
+2	küündə	küün	ADV	_	_	6	advmod	_	_
+3	oda	oda	ADV	_	_	6	advmod	_	_
+4	xol	xol	ADJ	_	_	5	amod	_	_
+5	bišə	bišə	PRON	_	PronType=Prs	6	nsubj	_	_
+6	bää-nä	bää	VERB	_	Tense=Pres	0	root	_	_
+
+# sent_id = Kalmyk_grammar_16
+# text = äm-d-än mini ekə oda uga
+# text[eng] = My mother is not alive now.
+1	äm-d-än	äm	NOUN	_	Case=Dat|Number=Plur|Reflex=Yes	5	obl	_	_
+2	mini	mini	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	nmod:poss	_	_
+3	ekə	ekə	NOUN	_	_	5	nsubj	_	_
+4	oda	oda	ADV	_	_	5	advmod	_	_
+5	uga	uga	VERB	_	Polarity=Neg	0	root	_	_
+
+# sent_id = Kalmyk_grammar_17
+# text = ter övgə-n-də jumə-n uga ɢanɢən xö-n
+# text[eng] = This old man has nothing, there is only one sheep.
+1	ter	ter	DET	_	PronType=Dem	2	det	_	_
+2	övgə-n-də	övgə	NOUN	_	Case=Ext|Number=Sing	5	nsubj	_	_
+3	jumə-n	jumə	NOUN	_	_	5	obj	_	_
+4	uga	uga	VERB	_	Polarity=Neg	5	cop	_	_
+5	ɢanɢən	ɢanɢən	NUM	_	_	6	nsubj	_	_
+6	xö-n	xö	NOUN	_	Case=Ext|Number=Sing	0	root	_	_
+
+# sent_id = Kalmyk_grammar_18
+# text = širä doorə mečik bää-nä
+# text[eng] = ‘There is a/the ball under the table.’
+1	širä	širä	NOUN	_	_	4	obl	_	_
+2	doorə	doorə	ADP	_	_	3	case	_	_
+3	mečik	mečik	NOUN	_	_	4	nsubj	_	_
+4	bää-nä	bää	VERB	_	Tense=Pres	0	root	_	_
+
+# sent_id = Kalmyk_grammar_19
+# text = Mečik širä doorə bišə
+# text[eng] = ‘The ball is not under the table.’
+1	Mečik	mečik	NOUN	_	_	4	nsubj	_	_
+2	širä	širä	NOUN	_	_	4	obl	_	_
+3	doorə	doorə	ADP	_	_	2	case	_	_
+4	bišə	bišə	VERB	_	Polarity=Neg	0	root	_	_
+
+# sent_id = Kalmyk_grammar_20
+# text = Ajsa arvə-n nas-ta bišə
+# text[eng] = ‘Ajsa is not 10 yet.’
+1	Ajsa	Ajsa	PROPN	_	_	4	nsubj	_	_
+2	arvə-n	arvə	NUM	_	Case=Ext	4	nummod	_	_
+3	nas-ta	nas	NOUN	_	Deriv=Assoc	4	obj	_	_
+4	bišə	bišə	VERB	_	Polarity=Neg	0	root	_	_
+
+# sent_id = Kalmyk_grammar_21
+# text = Ajsa-də arv-ən nas-ən uga
+# text[eng] = ‘Ajsa is not 10 years.’ (lit. “To Ajsa there are no ten years.”)
+1	Ajsa-də	Ajsa	PROPN	_	Case=Dat	4	obl	_	_
+2	arv-ən	arv	NUM	_	Case=Ext	3	nummod	_	_
+3	nas-ən	nas	NOUN	_	Case=Ext	4	nsubj	_	_
+4	uga	uga	VERB	_	Polarity=Neg	0	root	_	_
+
+# sent_id = Kalmyk_grammar_22
+# text = ter övg-n-ä id-sən xotə-nʲ üz-xə-šə bi küükə-nʲ bula-ž av-x-u gi-žä-nä
+# text[eng] = ‘I will not only see how this old man eats, but also take (to wife) his daughter,’ he says.
+1	ter	ter	DET	_	PronType=Dem	2	det	_	_
+2	övg-n-ä	övgə	NOUN	_	Case=Ext|Number=Sing	4	nsubj	_	_
+3	id-sən	id	VERB	_	Number=Sing|Person=3|Tense=Past	4	ccomp	_	_
+4	xotə-nʲ	xotə	NOUN	_	Case=Acc|Person=3	10	obj	_	_
+5	üz-xə-šə	üz	VERB	_	Deriv=PcFut|Polarity=Neg|Tense=Pres	10	xcomp	_	_
+6	bi	bi	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+7	küükə-nʲ	küükə	NOUN	_	Case=Acc|Person=3	10	obj	_	_
+8	bula-ž	bula	VERB	_	Deriv=CvIpfv	10	xcomp	_	_
+9	av-x-u	av	VERB	_	Deriv=PcFut|Number=Sing|Person=1	10	xcomp	_	_
+10	gi-žä-nä	gi	VERB	_	Aspect=Prog|Tense=Pres	0	root	_	_
+
+# sent_id = Kalmyk_grammar_23
+# text = noxa Badm-igə zuu-čkə-v
+# text[eng] = ‘A dog has bitten Badma.’
+1	noxa	noxa	NOUN	_	_	3	nsubj	_	_
+2	Badm-igə	Badma	PROPN	_	Case=Acc	3	obj	_	_
+3	zuu-čkə-v	zuu	VERB	_	Deriv=COMPL|Tense=Past	0	root	_	_
+
+# sent_id = Kalmyk_grammar_24
+# text = noxa Badm-igə zuu-žə orkə-v
+# text[eng] = ‘A dog has bitten Badma.’
+1	noxa	noxa	NOUN	_	_	3	nsubj	_	_
+2	Badm-igə	Badma	PROPN	_	Case=Acc	3	obj	_	_
+3	zuu-žə	zuu	VERB	_	Deriv=CvIpfv	4	ccomp	_	_
+4	orkə-v	orkə	VERB	_	Tense=Past	0	root	_	_
+
+# sent_id = Kalmyk_grammar_25
+# text = a b 42 godə äärm-də od-ad
+# text[eng] = ‘In 1942, (father) joined the army.’
+1	a	a	CCONJ	_	_	5	cc	_	_
+2	b	b	ADV	_	_	5	discourse	_	_
+3	42	42	NUM	_	_	5	obl	_	_
+4	godə	god	NOUN	_	Case=Ext	3	nmod	_	_
+5	äärm-də	äärm	NOUN	_	Case=Dat	6	obl	_	_
+6	od-ad	od	VERB	_	Deriv=CvAnt	0	root	_	_
+
+# sent_id = Kalmyk_grammar_26
+# text = tiig-äd kel-in cacu amə-ny kooči-žə oč
+# text[eng] = ‘As soon as she uttered this, her mouth curved.’
+1	tiig-äd	tiig	VERB	_	Deriv=CvAnt	6	advcl	_	_
+2	kel-in	kel	VERB	_	Deriv=CvAnt|Tense=Past	1	ccomp	_	_
+3	cacu	cacu	NOUN	_	_	6	nsubj	_	_
+4	amə-ny	amə	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	kooči-žə	kooči	VERB	_	Deriv=CvIpfv	6	xcomp	_	_
+6	oč	oč	VERB	_	Deriv=EVD	0	root	_	_
+
+# sent_id = Kalmyk_grammar_27
+# text = bičkən shovu-n ürg-äd nis-žə odə-v odə-v
+# text[eng] = ‘A little bird flew up, started to fly.’
+1	bičkən	bičkən	ADJ	_	_	2	amod	_	_
+2	shovu-n	shovu	NOUN	_	Case=Ext	6	nsubj	_	_
+3	ürg-äd	ürg	VERB	_	Deriv=CvAnt	6	advcl	_	_
+4	nis-žə	nis	VERB	_	Deriv=CvIpfv	6	xcomp	_	_
+5	odə-v	odə	VERB	_	Tense=Past	6	xcomp	_	_
+6	odə-v	odə	VERB	_	Tense=Past	0	root	_	_
+
+# sent_id = Kalmyk_grammar_28
+# text = ödməg-mödməg ög-xlä güü-žə od-ad
+# text[eng] = ‘When they gave (us) bread, (we) ran up.’
+1	ödməg-mödməg	ödməg-mödməg	VERB	_	Deriv=CvSucc	4	advcl	_	_
+2	ög-xlä	ög	VERB	_	Deriv=CvSucc	4	ccomp	_	_
+3	güü-žə	güü	VERB	_	Deriv=CvIpfv	4	xcomp	_	_
+4	od-ad	od	VERB	_	Deriv=CvAnt	0	root	_	_
+
+# sent_id = Kalmyk_grammar_29
+# text = ämä-ny ɢar-čə od-na
+# text[eng] = ‘(S/he) passed away’
+1	ämä-ny	ämä	NOUN	_	Number=Sing|Person=3	3	nsubj	_	_
+2	ɢar-čə	ɢar	VERB	_	Deriv=CvIpfv	3	ccomp	_	_
+3	od-na	od	VERB	_	Tense=Pres	0	root	_	_
+
+# sent_id = Kalmyk_grammar_30
+# text = Baatr asx-n-a arvə-n neg-n čas-la unt-ž od-la
+# text[eng] = ‘Batyr fell asleep at 11 o’clock in the evening.’
+1	Baatr	Baatr	PROPN	_	_	6	nsubj	_	_
+2	asx-n-a	asx	NOUN	_	Case=Ext|Number=Sing	6	obl	_	_
+3	arvə-n	arvə	NUM	_	Case=Ext	4	nummod	_	_
+4	neg-n	NUM	X	_	Case=Ext	5	nummod	_	_
+5	čas-la	čas	NOUN	_	Deriv=COM	6	obl	_	_
+6	unt-ž	unt	VERB	_	Deriv=CvIpfv	7	xcomp	_	_
+7	od-la	od	VERB	_	Tense=Rem	0	root	_	_
+
+# sent_id = Kalmyk_grammar_31
+# text = terə ükrə-ny tuqəl-ta-ɢan ük-č oč oč
+# text[eng] = ‘This cow and its calf died.’
+1	terə	ter	DET	_	PronType=Dem	2	det	_	_
+2	ükrə-ny	ükrə	NOUN	_	Number=Sing|Person=3	6	nsubj	_	_
+3	tuqəl-ta-ɢan	tuqəl	NOUN	_	Deriv=Assoc|Reflex=Yes	2	nmod	_	_
+4	ük-č	ük	VERB	_	Deriv=CvIpfv	6	ccomp	_	_
+5	oč	oč	VERB	_	Deriv=EVD	6	xcomp	_	6
+6	oč	oč	VERB	_	Deriv=EVD	0	root	_	_
+
+# sent_id = Kalmyk_grammar_32
+# text = suulkə xamxər-žə odə-v
+# text[eng] = ‘The bucket broke.’
+1	suulkə	suulkə	NOUN	_	_	3	nsubj	_	_
+2	xamxər-žə	xamxər	VERB	_	Deriv=CvAnt	3	ccomp	_	_
+3	odə-v	odə	VERB	_	Tense=Past	0	root	_	_
+
+# sent_id = Kalmyk_grammar_33
+# text = Badma köl-än xamxal-čkə-v
+# text[eng] = ‘Badma broke his leg.’
+1	Badma	Badma	PROPN	_	_	3	nsubj	_	_
+2	köl-än	köl	NOUN	_	Deriv=PRefl	3	obj	_	_
+3	xamxal-čkə-v	xamxal	VERB	_	Deriv=COMPL|Tense=Past	0	root	_	_
+
+# sent_id = Kalmyk_grammar_34
+# text = čejnik-tə usə-n busəl-žə avu-v
+# text[eng] = ‘The water in the kettle has boiled (already).’
+1	čejnik-tə	čejnik	NOUN	_	Case=Dat	3	obl	_	_
+2	usə-n	usə	NOUN	_	Case=Ext	3	nsubj	_	_
+3	busəl-žə	busəl	VERB	_	Deriv=CvIpfv	4	ccomp	_	_
+4	avu-v	avu	VERB	_	Tense=Past	0	root	_	_
+
+# sent_id = Kalmyk_grammar_35
+# text = Badma maxə šar-ž ögə-v
+# text[eng] = ‘Badma fried the meat (for somebody else).’
+1	Badma	Badma	PROPN	_	_	3	nsubj	_	_
+2	maxə	maxə	NOUN	_	_	3	obj	_	_
+3	šar-ž	šar	VERB	_	Deriv=CvIpfv	4	ccomp	_	_
+4	ögə-v	ögə	VERB	_	Tense=Past	0	root	_	_
+
+# sent_id = Kalmyk_grammar_36
+# text = Badma nan-də maxə šar-ž ögə-v
+# text[eng] = ‘Badma fried the meat for me.’
+1	Badma	Badma	PROPN	_	_	4	nsubj	_	_
+2	nan-də	1SG	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+3	maxə	maxə	NOUN	_	_	4	obj	_	_
+4	šar-ž	šar	VERB	_	Deriv=CvIpfv	5	ccomp	_	_
+5	ögə-v	ögə	VERB	_	Tense=Past	0	root	_	_
+
+# sent_id = Kalmyk_grammar_37
+# text = Ajsa maxə šar-ž avə-v
+# text[eng] = ‘Ajsa fried the meat (to eat it on her own).’
+1	Ajsa	Ajsa	PROPN	_	_	3	nsubj	_	_
+2	maxə	maxə	NOUN	_	_	3	obj	_	_
+3	šar-ž	šar	VERB	_	Deriv=CvIpfv	4	ccomp	_	_
+4	avə-v	avə	VERB	_	Tense=Past	0	root	_	_
+
+# sent_id = Kalmyk_grammar_38
+# text = Ajsa bij-d-än maxə šar-ž avə-v
+# text[eng] = ‘Ajsa fried the meat for herself.’
+1	Ajsa	Ajsa	PROPN	_	_	4	nsubj	_	_
+2	bij-d-än	bij	NOUN	_	Case=Dat|Deriv=PRefl	4	iobj	_	_
+3	maxə	maxə	NOUN	_	_	4	obj	_	_
+4	šar-ž	šar	VERB	_	Deriv=CvIpfv	5	ccomp	_	_
+5	avə-v	avə	VERB	_	Tense=Past	0	root	_	_
+
+# sent_id = Kalmyk_grammar_39
+# text = ənə tuuly-igə bi eež-äsə med-žə av-u-v
+# text[eng] = ‘I learned this fairytale from my grandmother.’
+1	ənə	ənə	DET	_	PronType=Dem	2	det	_	_
+2	tuuly-igə	tuuly	NOUN	_	Case=Acc	6	obj	_	_
+3	bi	bi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	eež-äsə	eež	NOUN	_	Case=Abl|Deriv=PRefl	6	obl	_	_
+5	med-žə	med	VERB	_	Deriv=CvIpfv	6	ccomp	_	_
+6	av-u-v	av	VERB	_	Number=Sing|Person=1|Tense=Past	0	root	_	_
+
+# sent_id = Kalmyk_grammar_40
+# text = övgə-n bos-ad evr-ännʲ ɣos-an täär-äd xaj-ad örü-n-d-än bos-xlagə ter ɣosə-nʲ.
+# text[eng] = ‘The old man was up (at night) and cut the boots. When (the family) woke up in the morning, there weren’t any boots.’
+1	övgə-n	övgə	NOUN	_	Case=Ext	2	nsubj	_	_
+2	bos-ad	bos	VERB	_	Deriv=CvAnt	0	root	_	_
+3	evr-ännʲ	evr	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	ɣos-an	ɣos	VERB	_	Deriv=PRefl	5	ccomp	_	_
+5	täär-äd	täär	VERB	_	Deriv=CvAnt	6	ccomp	_	_
+6	xaj-ad	xaj	VERB	_	Deriv=CvAnt	2	conj	_	_
+7	örü-n-d-än	örü	NOUN	_	Case=Dat|Deriv=PRefl	9	nsubj	_	_
+8	bos-xlagə	bos	VERB	_	Deriv=CvSucc2	9	ccomp	_	_
+9	ter	ter	PRON	_	PronType=Prs	10	nsubj	_	_
+10	ɣosə-nʲ	ɣos	VERB	_	Polarity=Neg	2	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Kalmyk_grammar_41
+# text = carcaxa urɣə id-äd xaj-ža-na.
+# text[eng] = ‘Locusts are eating (all) the crop.’
+1	carcaxa	carcaxa	NOUN	_	_	3	nsubj	_	_
+2	urɣə	urɣə	NOUN	_	_	3	obj	_	_
+3	id-äd	id	VERB	_	Deriv=CvAnt	4	ccomp	_	_
+4	xaj-ža-na	xaj	VERB	_	Deriv=PROG|Tense=Pres	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Kalmyk_grammar_42
+# text = bi cug aawa-savə xamxal-ad xaj-čkə-v.
+# text[eng] = ‘I have broken all the cups (lit. teabowl dishes).’
+1	bi	bi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	cug	cug	DET	_	PronType=Dem	4	det	_	_
+3	aawa-savə	aawa	NOUN	_	Number=Plur	4	obj	_	_
+4	xamxal-ad	xamxal	VERB	_	Deriv=CvAnt	5	ccomp	_	_
+5	xaj-čkə-v	xaj	VERB	_	Deriv=COMPL|Tense=Past	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Kalmyk_grammar_43
+# text = Bajrta küük-än üms-č üms-čə xaj-čkə-v.
+# text[eng] = ‘Bajrta covered her daughter with kisses.’
+1	Bajrta	Bajrta	PROPN	_	_	5	nsubj	_	_
+2	küük-än	küük	NOUN	_	Case=Ext	5	obj	_	_
+3	üms-č	üms	VERB	_	Deriv=CvIpfv	4	ccomp	_	_
+4	üms-čə	üms	VERB	_	Deriv=CvIpfv	5	ccomp	_	_
+5	xaj-čkə-v	xaj	VERB	_	Deriv=COMPL|Tense=Past	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Kalmyk_grammar_44
+# text = Badma Baatr xojr xörn žil-də üürl-žə bää-nä.
+# text[eng] = ‘Badma and Batyr have been friends for 20 years.’
+1	Badma	Badma	PROPN	_	_	5	nsubj	_	_
+2	Baatr	Baatr	PROPN	_	_	1	conj	_	_
+3	xojr	xojr	NOUN	_	Number=Plur	5	obj	_	_
+4	xörn	20	NUM	_	_	5	nummod	_	_
+5	žil-də	žil	NOUN	_	Case=Dat	6	obl	_	_
+6	üürl-žə	üürl	VERB	_	Deriv=CvIpfv	7	ccomp	_	_
+7	bää-nä	bää	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Kalmyk_grammar_45
+# text = Badm-in Manžə toxm-an gee-žə bää-nä.
+# text[eng] = ‘Badmaev Mandzhi’s family line is broken.’
+1	Badm-in	Badma	PROPN	_	Case=Gen	2	nmod	_	_
+2	Manžə	Manžə	PROPN	_	_	5	nsubj	_	_
+3	toxm-an	toxm	NOUN	_	Deriv=PRefl	5	obj	_	_
+4	gee-žə	gee	VERB	_	Deriv=CvIpfv	5	ccomp	_	_
+5	bää-nä	bää	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Kalmyk_grammar_46
+# text = xälä-Øxälä-Ømoʁa ger-ür or-žə jov-na!
+# text[eng] = ‘Look, look, a snake is crawling towards the house!’
+1	xälä-Ø	xälä	VERB	_	VerbForm=Imp	0	root	_	SpaceAfter=No
+2	xälä-Ø	xälä	VERB	_	VerbForm=Imp	1	conj	_	SpaceAfter=No
+3	moʁa	moʁa	NOUN	_	_	5	nsubj	_	_
+4	ger-ür	ger	NOUN	_	Case=All	5	obl	_	_
+5	or-žə	or	VERB	_	Deriv=CvIpfv	1	ccomp	_	_
+6	jov-na	jov	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+7	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Kalmyk_grammar_47
+# text = küükə-n biil-žə jov-na.
+# text[eng] = ‘A girl is dancing.’
+1	küükə-n	küük	NOUN	_	Case=Ext	2	nsubj	_	_
+2	biil-žə	biil	VERB	_	Deriv=CvIpfv	3	ccomp	_	_
+3	jov-na	jov	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Kalmyk_grammar_48
+# text = Nina širä deer aaʁə täv-žə jov-na.
+# text[eng] = ‘Nina is putting the plates on the table.’
+1	Nina	Nina	PROPN	_	_	5	nsubj	_	_
+2	širä	širä	NOUN	_	_	5	obl	_	_
+3	deer	deer	ADP	_	_	2	case	_	_
+4	aaʁə	aaʁə	NOUN	_	_	5	obj	_	_
+5	täv-žə	täv	VERB	_	Deriv=CvIpfv	6	ccomp	_	_
+6	jov-na	jov	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Kalmyk_grammar_49
+# text = xälä-Ø! šovu-n nis-žä-nä.
+# text[eng] = ‘Look! The bird is flying (to and fro).’
+1	xälä-Ø	xälä	VERB	_	VerbForm=Imp	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	_	_	1	punct	_	_
+3	šovu-n	šovu	NOUN	_	Case=Ext	4	nsubj	_	_
+4	nis-žä-nä	nis	VERB	_	Aspect=Prog|Tense=Pres	1	parataxis	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Kalmyk_grammar_50
+# text = ter samolet Moskva-ɣasə Aɣš-ur nis-žə jov-na.
+# text[eng] = ‘This plane is flying from Moscow to Volgograd.’
+1	ter	ter	DET	_	PronType=Dem	2	det	_	_
+2	samolet	samolet	NOUN	_	_	6	nsubj	_	_
+3	Moskva-ɣasə	Moskva	PROPN	_	Case=Abl	6	obl	_	_
+4	Aɣš-ur	Aɣš	PROPN	_	Case=All	6	obl	_	_
+5	nis-žə	nis	VERB	_	Aspect=Imp|VerbForm=Conv	6	xcomp	_	_
+6	jov-na	jov	VERB	_	Tense=Pres	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Kalmyk_grammar_51
+# text = Očir av-xə degtr-igə Saglar šuluɣar umš-ad bää-nä.
+# text[eng] = Saglar is reading very fast the book that Ochir is going to take.
+1	Očir	Očir	PROPN	_	Case=Nom	2	nsubj	_	_
+2	av-xə	av	VERB	_	Tense=Fut|VerbForm=Part	3	acl	_	_
+3	degtr-igə	degtr	NOUN	_	Case=Acc|Number=Sing	7	obj	_	_
+4	Saglar	Saglar	PROPN	_	Case=Nom	7	nsubj	_	_
+5	šuluɣar	šuluɣar	ADV	_	_	7	advmod	_	_
+6	umš-ad	umš	VERB	_	ConvType=Ant|VerbForm=Conv	7	advcl	_	_
+7	bää-nä	bää	VERB	_	Aspect=Prog|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Kalmyk_grammar_52
+# text = dura-n-də-nʲ xotə-nʲ ög-äd bord-ad bää-nä.
+# text[eng] = (He/she) gives food at will and feeds up.
+1	dura-n-də-nʲ	dura	NOUN	_	Case=Dat|Number=Sing|Person[psor]=3|Poss=Yes	4	obl	_	Ext=Yes
+2	xotə-nʲ	xotə	NOUN	_	Number=Sing|Person[psor]=3|Poss=Yes	4	obj	_	_
+3	ög-äd	ög	VERB	_	ConvType=Ant|VerbForm=Conv	4	advcl	_	_
+4	bord-ad	bord	VERB	_	ConvType=Ant|VerbForm=Conv	5	advcl	_	_
+5	bää-nä	bää	VERB	_	Aspect=Hab|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Kalmyk_grammar_53
+# text = terü-n-äsə ikär səž-äd bää-nä.
+# text[eng] = Because of this, he is constantly very frightened.
+1	terü-n-äsə	terü	PRON	_	Case=Abl|PronType=Dem	4	obl	_	Ext=Yes
+2	ikär	ikär	ADV	_	Degree=Pos	4	advmod	_	_
+3	səž-äd	səž	VERB	_	ConvType=Ant|VerbForm=Conv	4	advcl	_	_
+4	bää-nä	bää	VERB	_	Aspect=Prog|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Kalmyk_grammar_54
+# text = öngr-äd bää-žə mini eckə.
+# text[eng] = (He) apparently died, my father.
+1	öngr-äd	öngr	VERB	_	ConvType=Ant|VerbForm=Conv	2	advcl	_	_
+2	bää-žə	bää	VERB	_	Evident=Yes|Mood=Ind|VerbForm=Fin	0	root	_	_
+3	mini	mini	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	eckə	eckə	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Kalmyk_grammar_55
+# text = dangin xö al-ad kevt-nä.
+# text[eng] = (He) constantly slaughters sheep.
+1	dangin	dangin	ADV	_	_	4	advmod	_	_
+2	xö	xö	NOUN	_	Case=Acc|Number=Sing	3	obj	_	_
+3	al-ad	al	VERB	_	ConvType=Ant|VerbForm=Conv	4	advcl	_	_
+4	kevt-nä	kevt	VERB	_	Aspect=Hab|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Kalmyk_grammar_56
+# text = Manžə gerə erg-äd güü-žäd suu-na.
+# text[eng] = Mandzhi is running around the house.
+1	Manžə	Manžə	PROPN	_	Case=Nom	5	nsubj	_	_
+2	gerə	ger	NOUN	_	Case=Acc|Number=Sing	3	obj	_	_
+3	erg-äd	erg	VERB	_	ConvType=Ant|VerbForm=Conv	4	advcl	_	_
+4	güü-žäd	güü	VERB	_	ConvType=Ant|VerbForm=Conv	5	advcl	_	_
+5	suu-na	suu	VERB	_	Aspect=Prog|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Kalmyk_grammar_57
+# text = enə zurəg dangin un-ad kevt-nä.
+# text[eng] = This picture keeps falling down.
+1	enə	enə	DET	_	PronType=Dem	2	det	_	_
+2	zurəg	zurəg	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+3	dangin	dangin	ADV	_	_	5	advmod	_	_
+4	un-ad	un	VERB	_	ConvType=Ant|VerbForm=Conv	5	advcl	_	_
+5	kevt-nä	kevt	VERB	_	Aspect=Hab|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Kalmyk_grammar_58
+# text = caadkə zalu-čən gergə-n-d-än naa-ld-ad kevt-nä.
+# text[eng] = This man keeps clinging to his wife.
+1	caadkə	caadkə	DET	_	Deixis=Remt|PronType=Dem	2	det	_	_
+2	zalu-čən	zalu	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	Pcl=Conc
+3	gergə-n-d-än	gergə	NOUN	_	Case=Dat|Number=Sing|Reflex=Yes	4	obl	_	Ext=Yes
+4	naa-ld-ad	naa	VERB	_	ConvType=Ant|VerbForm=Conv|Voice=Rcp	6	advcl	_	_
+5	kevt-nä	kevt	VERB	_	Aspect=Hab|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Kalmyk_grammar_59
+# text = xortə-n cug xöö-d al-ad jov-na.
+# text[eng] = The enemy is killing all the sheep / The enemy kills all the sheep.
+1	xortə-n	xortə	NOUN	_	Case=Nom|Number=Sing	4	nsubj	_	Ext=Yes
+2	cug	cug	DET	_	PronType=Tot	3	det	_	_
+3	xöö-d	xöö	NOUN	_	Case=Acc|Number=Plur	4	obj	_	_
+4	al-ad	al	VERB	_	ConvType=Ipfv|VerbForm=Conv	5	advcl	_	_
+5	jov-na	jov	VERB	_	Aspect=Hab,Prog|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Kalmyk_grammar_60
+# text = xärd šovu-n xöö-d deegür nis-äd jov-na.
+# text[eng] = An eagle is flying over the sheep.
+1	xärd	xärd	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+2	šovu-n	šovu	NOUN	_	Case=Nom|Number=Sing	1	compound	_	Ext=Yes
+3	xöö-d	xöö	NOUN	_	Case=Acc|Number=Plur	5	obl	_	_
+4	deegür	deegür	ADP	_	_	3	case	_	_
+5	nis-äd	nis	VERB	_	ConvType=Ant|VerbForm=Conv	6	advcl	_	_
+6	jov-na	jov	VERB	_	Aspect=Prog|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Kalmyk_grammar_61
+# text = xärd šovu-n xöö-d deegür nis-äd bää-nä.
+# text[eng] = An eagle is flying over the sheep (soaring, motionless).
+1	xärd	xärd	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
+2	šovu-n	šovu	NOUN	_	Case=Nom|Number=Sing	1	compound	_	Ext=Yes
+3	xöö-d	xöö	NOUN	_	Case=Acc|Number=Plur	6	dep	_	_
+4	deegür	deegür	ADP	_	_	6	dep	_	_
+5	nis-äd	nis	VERB	_	ConvType=Ant|VerbForm=Conv	6	advcl	_	_
+6	bää-nä	bää	VERB	_	Aspect=Prog|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Kalmyk_grammar_62
+# text = küükə-d kičäl-äsən güü-žə od-sən uga.
+# text[eng] = The children did not skip the lesson.
+1	küükə-d	küükə	NOUN	_	Case=Nom|Number=Plur	5	nsubj	_	_
+2	kičäl-äsən	kičäl	NOUN	_	Case=Abl|Number=Sing|Reflex=Yes	3	obl	_	_
+3	güü-žə	güü	VERB	_	ConvType=Ipfv|VerbForm=Conv	5	advcl	_	_
+4	od-sən	od	VERB	_	Tense=Past|VerbForm=Part	5	xcomp	_	_
+5	uga	uga	VERB	_	Mood=Ind|Polarity=Neg|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Kalmyk_grammar_63
+# text = nandə ödər bolrə-n Elstə or-žə od-gd-na.
+# text[eng] = I have to go to Elista every day.
+1	nandə	bi	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+2	ödər	ödər	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+3	bolrə-n	bolrə	DET	_	PronType=Tot	2	det	_	Ext=Yes
+4	Elstə	Elstə	PROPN	_	Case=Dir	5	obl	_	_
+5	or-žə	or	VERB	_	ConvType=Ipfv|VerbForm=Conv	7	advcl	_	_
+6	od-gd-na	od	VERB	_	Modality=Nec|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Kalmyk_grammar_64
+# text = noxa ez-än ard-asə dax-žə jov-sən uga.
+# text[eng] = The dog does not follow its master.
+1	noxa	noxa	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
+2	ez-än	ez	NOUN	_	Case=Nom|Number=Sing|Reflex=Yes	4	obl	_	_
+3	ard-asə	ard	NOUN	_	Case=Abl	4	obl	_	_
+4	dax-žə	dax	VERB	_	ConvType=Ipfv|VerbForm=Conv	5	advcl	_	_
+5	jov-sən	jov	VERB	_	Tense=Past|VerbForm=Part	6	xcomp	_	_
+6	uga	uga	VERB	_	Mood=Ind|Polarity=Neg|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Kalmyk_grammar_65
+# text = Nina nan-də duul-žə ög-sən uga.
+# text[eng] = Nina does not sing for me.
+1	Nina	Nina	PROPN	_	Case=Nom	5	nsubj	_	_
+2	nan-də	bi	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+3	duul-žə	duul	VERB	_	ConvType=Ipfv|VerbForm=Conv	4	advcl	_	_
+4	ög-sən	ög	VERB	_	Tense=Past|VerbForm=Part	5	xcomp	_	_
+5	uga	uga	VERB	_	Mood=Ind|Polarity=Neg|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Kalmyk_grammar_66
+# text = Badma gerg-än cok-ad xaj-sən uga.
+# text[eng] = Badma did not beat his wife black and blue.
+1	Badma	Badma	PROPN	_	Case=Nom	5	nsubj	_	_
+2	gerg-än	gergə	NOUN	_	Case=Acc|Number=Sing|Reflex=Yes	3	obj	_	_
+3	cok-ad	cok	VERB	_	ConvType=Ant|VerbForm=Conv	4	advcl	_	_
+4	xaj-sən	xaj	VERB	_	Tense=Past|VerbForm=Part	5	xcomp	_	_
+5	uga	uga	VERB	_	Mood=Ind|Polarity=Neg|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Kalmyk_grammar_67
+# text = Ajsa-n mal-mud üvl-är ük-äd kevt-sən uga.
+# text[eng] = Aisa's cattle did not die this winter.
+1	Ajsa-n	Ajsa	PROPN	_	Case=Gen	2	nmod:poss	_	_
+2	mal-mud	mal	NOUN	_	Case=Nom|Number=Plur	6	nsubj	_	_
+3	üvl-är	üvl	NOUN	_	Case=Ins|Number=Sing	4	obl	_	_
+4	ük-äd	ük	VERB	_	ConvType=Ant|VerbForm=Conv	5	advcl	_	_
+5	kevt-sən	kevt	VERB	_	Aspect=Compl|Tense=Past|VerbForm=Part	6	xcomp	_	_
+6	uga	uga	VERB	_	Mood=Ind|Polarity=Neg|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Kalmyk_grammar_68
+# text = bičk-düüd muzej-də ir-äd olan soɣn jumə xälä-žə avə-v.
+# text[eng] = The children came to the museum and saw many interesting things.
+1	bičk-düüd	bičk	NOUN	_	Case=Nom|Number=Plur	9	nsubj	_	_
+2	muzej-də	muzej	NOUN	_	Case=Dat|Number=Sing	3	obl	_	_
+3	ir-äd	ir	VERB	_	ConvType=Ant|VerbForm=Conv	9	advcl	_	_
+4	olan	olan	DET	_	Degree=Pos|PronType=Ind	7	det	_	_
+5	soɣn	soɣn	ADJ	_	Degree=Pos	7	amod	_	_
+6	jumə	jumə	NOUN	_	Case=Acc|Number=Sing	7	compound	_	_
+7	xälä-žə	xälä	VERB	_	ConvType=Ipfv|VerbForm=Conv	8	advcl	_	_
+8	avə-v	av	VERB	_	Aspect=Compl|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = Kalmyk_grammar_69
+# text = Мини ки девскр моһа заһсар дүүрң.
+# text[eng] = My hovercraft is full of eels.
+1	Мини	mini	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	ки	ki	NOUN	_	Case=Nom|Number=Sing	3	compound	_	_
+3	девскр	devskr	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
+4	моһа	moha	NOUN	_	Case=Nom|Number=Sing	6	obl	_	_
+5	заһсар	zahsar	ADP	_	_	4	case	_	_
+6	дүүрң	düür	ADJ	_	Degree=Pos|Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Kalmyk_grammar_70
+# text = Негн келн кезә чигн тату.
+# text[eng] = One language is never enough.
+1	Негн	negn	NUM	_	NumType=Card	2	nummod	_	_
+2	келн	keln	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+3	кезә	kezä	ADV	_	PronType=Neg	5	advmod	_	_
+4	чигн	čign	PART	_	Polarity=Neg	3	fixed	_	_
+5	тату	tatu	ADJ	_	Degree=Pos|Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Kalmyk_grammar_71
+# text = Би чамд дуртав.
+# text[eng] = I love you.
+1	Би	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	чамд	či	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	3	obl	_	_
+3	дуртав	durt	ADJ	_	Degree=Pos|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Kalmyk_grammar_72
+# text = Би чамд дурго болв.
+# text[eng] = I hate you.
+1	Би	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	чамд	či	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	4	obl	_	_
+3	дурго	durgo	ADJ	_	Degree=Pos|Polarity=Neg	4	xcomp	_	_
+4	болв	bol	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Kalmyk_grammar_73
+# text = Амр өгтн!
+# text[eng] = Leave me alone!
+1	Амр	amr	ADV	_	_	2	advmod	_	_
+2	өгтн	ög	VERB	_	Mood=Imp|Number=Plur|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Kalmyk_grammar_74
+# text = Цагдад дуудтн!
+# text[eng] = Call the police!
+1	Цагдад	цагдаа	NOUN	_	Case=Dat|Number=Sing	2	obl	_	_
+2	дуудтн	дууд	VERB	_	Mood=Imp|Number=Plur|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Kalmyk_grammar_75
+# text = Би чамаг икәр санад онцардв.
+# text[eng] = I miss you.
+1	Би	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	чамаг	či	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
+3	икәр	ikär	ADV	_	Degree=Pos	4	advmod	_	_
+4	санад	san	VERB	_	ConvType=Ant|VerbForm=Conv	5	advcl	_	_
+5	онцардв	ontsar	VERB	_	Aspect=Compl|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Kalmyk_grammar_76
+# text = Нанла биилхәр седнч?
+# text[eng] = Would you like to dance with me?
+1	Нанла	bi	PRON	_	Case=Com|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+2	биилхәр	biil	VERB	_	ConvType=Purp|VerbForm=Conv	3	advcl	_	_
+3	седнч	sed	VERB	_	Mood=Opt|Number=Sing|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Kalmyk_grammar_77
+# text = Эн эм юмн болһнд хәрүлнә.
+# text[eng] = This lady will pay for everything.
+1	Эн	en	DET	_	PronType=Dem	2	det	_	_
+2	эм	em	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+3	юмн	yumn	PRON	_	Number=Sing|PronType=Tot	5	obl	_	_
+4	болһнд	bolh	ADP	_	_	3	case	_	_
+5	хәрүлнә	xärül	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Kalmyk_grammar_78
+# text = Эн эр юмн болһнд хәрүлнә.
+# text[eng] = This gentleman will pay for everything.
+1	Эн	en	DET	_	PronType=Dem	2	det	_	_
+2	эр	er	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
+3	юмн	yumn	PRON	_	Number=Sing|PronType=Tot	5	obl	_	_
+4	болһнд	bolh	ADP	_	_	3	case	_	_
+5	хәрүлнә	xärül	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Kalmyk_grammar_79
+# text = Һарч ирдг хора альд?
+# text[eng] = Where is the toilet?
+1	Һарч	harč	VERB	_	VerbForm=Conv	2	advcl	_	_
+2	ирдг	irdg	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	хора	xora	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
+4	альд	al	PRON	_	Case=Loc|PronType=Int	3	obl	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Kalmyk_grammar_80
+# text = Анта хальмгаһар күүндит.
+# text[eng] = Speak to me in Kalmyk.
+1	Анта	anta	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+2	хальмгаһар	xal’mgahar	NOUN	_	Case=Ins	3	obl	_	_
+3	күүндит	küünd	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Kalmyk_grammar_81
+# text = Та хальмгаһар келдвтә?
+# text[eng] = Do you speak Kalmyk?
+1	Та	ta	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
+2	хальмгаһар	xal’mgahar	NOUN	_	Case=Ins	3	obl	_	_
+3	келдвтә	keld	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Kalmyk_grammar_82
+# text = Та англь келәр келдвтә?
+# text[eng] = Do you speak English?
+1	Та	ta	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
+2	англь	angl	NOUN	_	Case=Nom|Number=Sing	3	compound	_	_
+3	келәр	keler	NOUN	_	Case=Ins	4	obl	_	_
+4	келдвтә	keld	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Kalmyk_grammar_83
+# text = Бичҗ өгхитн, сурҗанав.
+# text[eng] = Please write it down.
+1	Бичҗ	bichj	VERB	_	VerbForm=Conv	2	xcomp	_	_
+2	өгхитн	ögx	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	сурҗанав	surjan	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Kalmyk_grammar_84
+# text = Буйн болтха, келсән давтхнтбас нег.
+# text[eng] = Please say that again.
+1	Буйн	buyn	INTJ	_	_	2	discourse	_	_
+2	болтха	bolt	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	келсән	kels	VERB	_	Tense=Past|VerbForm=Part	5	acl	_	_
+5	давтхнт	davtx	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	бас	bas	ADV	_	_	5	advmod	_	_
+7	нег	neg	NUM	_	NumType=Card	5	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Kalmyk_grammar_85
+# text = Танас сурҗанав, невчк уданар татад келит.
+# text[eng] = Please say that again.
+1	Танас	tanas	PRON	_	Case=Abl|Number=Plur|Person=2|PronType=Prs	2	obl	_	_
+2	сурҗанав	surjan	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	невчк	nevčk	ADV	_	_	6	advmod	_	_
+5	уданар	udanar	ADV	_	_	6	advmod	_	_
+6	татад	tatad	VERB	_	VerbForm=Conv	7	xcomp	_	_
+7	келит	kel	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = Kalmyk_grammar_86
+# text = Би медхшв.
+# text[eng] = I do not know.
+1	Би	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	медхшв	medx	VERB	_	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Kalmyk_grammar_87
+# text = Би медҗәхшв.
+# text[eng] = I do not know (progressive nuance).
+1	Би	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	медҗәхшв	medjäx	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Kalmyk_grammar_88
+# text = Медҗәнәв.
+# text[eng] = I understand.
+1	Медҗәнәв	medjän	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Kalmyk_grammar_89
+# text = Хаалһтн цаһан болтха.
+# text[eng] = Have a good journey.
+1	Хаалһтн	xaalhtn	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+2	цаһан	tsagaan	ADJ	_	_	1	amod	_	_
+3	болтха	bolt	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Kalmyk_grammar_90
+# text = Альдасвт?
+# text[eng] = Where are you from?
+1	Альдасвт	al’das	VERB	_	Mood=Ind|Number=Plur|Person=2|PronType=Int|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Kalmyk_grammar_91
+# text = Тана нерн кемб?
+# text[eng] = What is your name? (polite)
+1	Тана	tana	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	2	nmod:poss	_	_
+2	нерн	nern	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+3	кемб	kem	VERB	_	Mood=Ind|PronType=Int|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Kalmyk_grammar_92
+# text = Чини нерн кемб?
+# text[eng] = What is your name? (informal)
+1	Чини	čini	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	nmod:poss	_	_
+2	нерн	nern	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
+3	кемб	kem	VERB	_	Mood=Ind|PronType=Int|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
