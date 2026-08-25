@@ -32,7 +32,7 @@
 1	tiig-žə	tiig	VERB	_	_	0	root	_	Deriv=CvIpfv
 2	naad-də-m	naad	VERB	_	Aspect=Hab	1	xcomp	_	CopType=Aff
 3	bišə	bišə	PART	_	Polarity=Neg	2	advmod	_	_
-4	küü-n-ä	küü	PRON	_	Number=Sing|PronType=Prs	5	obl	_	Case=Ext
+4	küü-n-ä	küü	PRON	_	Number=Sing|PronType=Prs	5	nmod	_	Case=Ext
 5	amə-n-də	amə	NOUN	_	Case=Dat|Number=Sing	2	obj	_	_
 6	odekolon	odekolon	NOUN	_	_	7	obj	_	_
 7	ke-d-ü	ke	VERB	_	Mood=Int	1	ccomp	_	Deriv=PcHab
@@ -80,7 +80,7 @@
 # sent_id = Kalmyk_grammar_10
 # text = Kekshenova Sveta ter vnučk-an ög-xär bää-d-go-č
 # text[eng] = Sveta Kekshenova doesn’t send her granddaughter (to school; surprisingly).
-1	Kekshenova	Kekshenova	PROPN	_	_	2	flat	_	_
+1	Kekshenova	Kekshenova	PROPN	_	_	2	parataxis	_	_
 2	Sveta	Sveta	PROPN	_	_	5	nsubj	_	_
 3	ter	ter	DET	_	PronType=Dem	5	det	_	_
 4	vnučk-an	vnučk	NOUN	_	Case=Acc|Reflex=Yes	5	obj	_	_
@@ -113,9 +113,9 @@
 # sent_id = Kalmyk_grammar_14
 # text = ger-t-än tus uga jovačə
 # text[eng] = useless man for home
-1	ger-t-än	ger	NOUN	_	Case=Dat|Number=Plur|Reflex=Yes	4	obl	_	_
+1	ger-t-än	ger	NOUN	_	Case=Dat|Number=Plur|Reflex=Yes	4	nmod	_	_
 2	tus	tus	NOUN	_	_	4	nsubj	_	_
-3	uga	uga	VERB	_	Polarity=Neg	4	cop	_	_
+3	uga	uga	AUX	_	Polarity=Neg	4	cop	_	_
 4	jovačə	jovačə	NOUN	_	_	0	root	_	_
 
 # sent_id = Kalmyk_grammar_15
@@ -143,7 +143,7 @@
 1	ter	ter	DET	_	PronType=Dem	2	det	_	_
 2	övgə-n-də	övgə	NOUN	_	Number=Sing	5	nsubj	_	Case=Ext
 3	jumə-n	jumə	NOUN	_	_	5	obj	_	_
-4	uga	uga	VERB	_	Polarity=Neg	5	cop	_	_
+4	uga	uga	AUX	_	Polarity=Neg	5	cop	_	_
 5	ɢanɢən	ɢanɢən	NUM	_	_	6	nsubj	_	_
 6	xö-n	xö	NOUN	_	Number=Sing	0	root	_	Case=Ext
 
@@ -188,7 +188,7 @@
 4	xotə-nʲ	xotə	NOUN	_	Case=Acc|Person=3	10	obj	_	_
 5	üz-xə-šə	üz	VERB	_	Polarity=Neg|Tense=Pres	10	xcomp	_	Deriv=PcFut
 6	bi	bi	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
-7	küükə-nʲ	küükə	NOUN	_	Case=Acc|Person=3	10	obj	_	_
+7	küükə-nʲ	küükə	NOUN	_	Case=Acc|Person=3	10	iobj	_	_
 8	bula-ž	bula	VERB	_	_	10	xcomp	_	Deriv=CvIpfv
 9	av-x-u	av	VERB	_	Number=Sing|Person=1	10	xcomp	_	Deriv=PcFut
 10	gi-žä-nä	gi	VERB	_	Aspect=Prog|Tense=Pres	0	root	_	_
@@ -213,7 +213,7 @@
 # text[eng] = ‘In 1942, (father) joined the army.’
 1	a	a	CCONJ	_	_	5	cc	_	_
 2	b	b	ADV	_	_	5	discourse	_	_
-3	42	42	NUM	_	_	5	obl	_	_
+3	42	42	NUM	_	_	5	nmod	_	_
 4	godə	god	NOUN	_	_	3	nmod	_	Case=Ext
 5	äärm-də	äärm	NOUN	_	Case=Dat	6	obl	_	_
 6	od-ad	od	VERB	_	_	0	root	_	Deriv=CvAnt
@@ -224,7 +224,7 @@
 1	tiig-äd	tiig	VERB	_	_	6	advcl	_	Deriv=CvAnt
 2	kel-in	kel	VERB	_	Tense=Past	1	ccomp	_	Deriv=CvAnt
 3	cacu	cacu	NOUN	_	_	6	nsubj	_	_
-4	amə-ny	amə	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	amə-ny	amə	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj:outer	_	_
 5	kooči-žə	kooči	VERB	_	_	6	xcomp	_	Deriv=CvIpfv
 6	oč	oč	VERB	_	_	0	root	_	Deriv=EVD
 
@@ -259,7 +259,7 @@
 1	Baatr	Baatr	PROPN	_	_	6	nsubj	_	_
 2	asx-n-a	asx	NOUN	_	Number=Sing	6	obl	_	Case=Ext
 3	arvə-n	arvə	NUM	_	_	4	nummod	_	Case=Ext
-4	neg-n	NUM	X	_	_	5	nummod	_	Case=Ext
+4	neg-n	NUM	NUM	_	_	5	nummod	_	Case=Ext
 5	čas-la	čas	NOUN	_	_	6	obl	_	Deriv=COM
 6	unt-ž	unt	VERB	_	_	7	xcomp	_	Deriv=CvIpfv
 7	od-la	od	VERB	_	_	0	root	_	Tense=Rem
@@ -529,9 +529,9 @@
 # text = caadkə zalu-čən gergə-n-d-än naa-ld-ad kevt-nä.
 # text[eng] = This man keeps clinging to his wife.
 1	caadkə	caadkə	DET	_	PronType=Dem	2	det	_	Deixis=Remt
-2	zalu-čən	zalu	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	Pcl=Conc
+2	zalu-čən	zalu	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	Pcl=Conc
 3	gergə-n-d-än	gergə	NOUN	_	Case=Dat|Number=Sing|Reflex=Yes	4	obl	_	Ext=Yes
-4	naa-ld-ad	naa	VERB	_	VerbForm=Conv|Voice=Rcp	6	advcl	_	ConvType=Ant
+4	naa-ld-ad	naa	VERB	_	VerbForm=Conv|Voice=Rcp	5	advcl	_	ConvType=Ant
 5	kevt-nä	kevt	VERB	_	Aspect=Hab|Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -580,11 +580,11 @@
 # sent_id = Kalmyk_grammar_63
 # text = nandə ödər bolrə-n Elstə or-žə od-gd-na.
 # text[eng] = I have to go to Elista every day.
-1	nandə	bi	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	obl	_	_
-2	ödər	ödər	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+1	nandə	bi	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	obl	_	_
+2	ödər	ödər	NOUN	_	Case=Nom|Number=Sing	6	obl	_	_
 3	bolrə-n	bolrə	DET	_	PronType=Tot	2	det	_	Ext=Yes
 4	Elstə	Elstə	PROPN	_	_	5	obl	_	Case=Dir
-5	or-žə	or	VERB	_	VerbForm=Conv	7	advcl	_	ConvType=Ipfv
+5	or-žə	or	VERB	_	VerbForm=Conv	6	advcl	_	ConvType=Ipfv
 6	od-gd-na	od	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No|Modality=Nec
 7	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -633,9 +633,9 @@
 # sent_id = Kalmyk_grammar_68
 # text = bičk-düüd muzej-də ir-äd olan soɣn jumə xälä-žə avə-v.
 # text[eng] = The children came to the museum and saw many interesting things.
-1	bičk-düüd	bičk	NOUN	_	Case=Nom|Number=Plur	9	nsubj	_	_
+1	bičk-düüd	bičk	NOUN	_	Case=Nom|Number=Plur	8	nsubj	_	_
 2	muzej-də	muzej	NOUN	_	Case=Dat|Number=Sing	3	obl	_	_
-3	ir-äd	ir	VERB	_	VerbForm=Conv	9	advcl	_	ConvType=Ant
+3	ir-äd	ir	VERB	_	VerbForm=Conv	8	advcl	_	ConvType=Ant
 4	olan	olan	DET	_	Degree=Pos|PronType=Ind	7	det	_	_
 5	soɣn	soɣn	ADJ	_	Degree=Pos	7	amod	_	_
 6	jumə	jumə	NOUN	_	Case=Acc|Number=Sing	7	compound	_	_
@@ -659,7 +659,7 @@
 # text[eng] = One language is never enough.
 1	Негн	negn	NUM	_	NumType=Card	2	nummod	_	_
 2	келн	keln	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
-3	кезә	kezä	ADV	_	_	5	advmod	_	PronType=Neg
+3	кезә	kezä	ADV	_	ExtPos=ADV	5	advmod	_	PronType=Neg
 4	чигн	čign	PART	_	Polarity=Neg	3	fixed	_	_
 5	тату	tatu	ADJ	_	Degree=Pos|Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -737,9 +737,9 @@
 # text = Һарч ирдг хора альд?
 # text[eng] = Where is the toilet?
 1	Һарч	harč	VERB	_	VerbForm=Conv	2	advcl	_	_
-2	ирдг	irdg	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	ирдг	irdg	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl	_	_
 3	хора	xora	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
-4	альд	al	PRON	_	Case=Loc|PronType=Int	3	obl	_	SpaceAfter=No
+4	альд	al	PRON	_	Case=Loc|PronType=Int	3	nmod	_	SpaceAfter=No
 5	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Kalmyk_grammar_80
@@ -785,7 +785,7 @@
 4	келсән	kels	VERB	_	Tense=Past|VerbForm=Part	5	acl	_	_
 5	давтхнт	davtx	VERB	_	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	бас	bas	ADV	_	_	5	advmod	_	_
-7	нег	neg	NUM	_	NumType=Card	5	advmod	_	SpaceAfter=No
+7	нег	neg	ADV	_	NumType=Card	5	advmod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Kalmyk_grammar_85
