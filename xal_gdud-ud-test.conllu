@@ -831,7 +831,7 @@
 # sent_id = Kalmyk_grammar_90
 # text = Альдасвт?
 # text[eng] = Where are you from?
-1	Альдасвт	al’das	VERB	_	Mood=Ind|Number=Plur|Person=2|PronType=Int|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+1	Альдасвт	al’das	PRON	_	Mood=Ind|Number=Plur|Person=2|PronType=Int|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 2	?	?	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Kalmyk_grammar_91
@@ -839,7 +839,7 @@
 # text[eng] = What is your name? (polite)
 1	Тана	tana	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	2	nmod:poss	_	_
 2	нерн	nern	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
-3	кемб	kem	VERB	_	Mood=Ind|PronType=Int|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	кемб	kem	PRON	_	Mood=Ind|PronType=Int|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Kalmyk_grammar_92
@@ -847,6 +847,6 @@
 # text[eng] = What is your name? (informal)
 1	Чини	čini	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	nmod:poss	_	_
 2	нерн	nern	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
-3	кемб	kem	VERB	_	Mood=Ind|PronType=Int|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	кемб	kem	PRON	_	Mood=Ind|PronType=Int|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	?	?	PUNCT	_	_	3	punct	_	_
 
