@@ -528,7 +528,7 @@
 # sent_id = Kalmyk_grammar_58
 # text = caadkə zalu-čən gergə-n-d-än naa-ld-ad kevt-nä.
 # text[eng] = This man keeps clinging to his wife.
-1	caadkə	caadkə	DET	_	PronType=Dem	2	det	_	Deixis=Remt
+1	caadkə	caadkə	DET	_	Deixis=Remt|PronType=Dem	2	det	_	_
 2	zalu-čən	zalu	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	Pcl=Conc
 3	gergə-n-d-än	gergə	NOUN	_	Case=Dat|Number=Sing|Reflex=Yes	4	obl	_	Ext=Yes
 4	naa-ld-ad	naa	VERB	_	VerbForm=Conv|Voice=Rcp	5	advcl	_	ConvType=Ant
